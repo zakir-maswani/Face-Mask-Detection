@@ -37,13 +37,11 @@ Upload a photo through the browser, and the model returns a predicted class alon
 
 ```
 ┌─────────────────────────────┐        ┌─────────────────────────────┐
-│                              │        │  Prediction: With Mask      │
-│      [ Upload a Photo ]      │  --->  │  Confidence: 98.10%         │
-│                              │        │                              │
+│                                  │        │  Prediction: With Mask           │
+│      [ Upload a Photo ]          │  --->  │  Confidence: 98.10%              │
+│                                  │        │                                  │
 └─────────────────────────────┘        └─────────────────────────────┘
 ```
-
-*Add a screenshot or GIF of your running app here, e.g. `docs/demo.gif`*
 
 </div>
 
@@ -107,13 +105,16 @@ Training and validation metrics are printed at the end of `data_preprocessing_an
 
 ```
 face-mask-detector/
-├── main.py                                     # FastAPI application & inference endpoint
-├── face_mask_detector.pth                      # Trained model weights
-├── data_preprocessing_and_model_training.ipynb # Notebook: data prep + training + evaluation
+├── main.py                                                         
+├── data_preprocessing_and_model_training.ipynb 
 ├── templates/
-│   └── index.html                              # Web UI
+│   └── index.html
+├── demo_material/
+│   ├── demo_video.mp4
+│   └── demo_image.png                 
 ├── static/
-│   └── ...                                     # CSS/JS/assets
+|   ├── script.js
+│   └── style.ccs                                
 ├── requirements.txt
 └── README.md
 ```
@@ -124,7 +125,7 @@ face-mask-detector/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/face-mask-detector.git
+git clone https://github.com/<zakir-maswani>/Face-Mask-Detection.git
 cd face-mask-detector
 ```
 
@@ -141,6 +142,7 @@ pip install -r requirements.txt
 
 ### 4. Ensure the model file is present
 Place `face_mask_detector.pth` in the project root (train it yourself using the included notebook, or download a pre-trained copy if provided).
+Download model from Kaggle: 
 
 ---
 
