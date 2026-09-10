@@ -142,7 +142,7 @@ pip install -r requirements.txt
 
 ### 4. Ensure the model file is present
 Place `face_mask_detector.pth` in the project root (train it yourself using the included notebook, or download a pre-trained copy if provided).
-Download model from Kaggle: 
+Download model from Kaggle: https://www.kaggle.com/code/zakirali22/face-mask-detector-cnn
 
 ---
 
