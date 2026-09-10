@@ -27,8 +27,6 @@ Upload a photo through the browser, and the model returns a predicted class alon
 | 😷 **With Mask** | Face mask correctly detected |
 | 🙂 **Without Mask** | No face mask detected |
 
-> ⚠️ **Disclaimer:** This project is for educational purposes only. It is a demo classifier, not a certified compliance or safety-monitoring tool.
-
 ---
 
 ## 🎬 Demo
